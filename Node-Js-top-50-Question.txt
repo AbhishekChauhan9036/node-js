@@ -1,8 +1,53 @@
 1. What is Node.js? Where can you use it?..................................................................................
 
-Node.js is an open-source, cross-platform JavaScript runtime environment and library to run web applications outside the client’s browser. It is used to create server-side web applications.
+Node.js is an open-source, cross-platform JavaScript runtime 
+environment and library to run web applications outside the 
+client’s browser. It is used to create server-side web applications.
 
-Node.js is perfect for data-intensive applications as it uses an asynchronous, event-driven model. You can use  I/O intensive web applications like video streaming sites. You can also use it for developing: Real-time web applications, Network applications, General-purpose applications, and Distributed systems.
+Node.js is perfect for data-intensive applications as it uses
+an asynchronous, event-driven model. You can use  I/O intensive
+web applications like video streaming sites. You can also use 
+it for developing: Real-time web applications, Network applications,
+General-purpose applications, and Distributed systems.
+
+
+
+
+2. Why use Node.js?..........................................................................................................
+Node.js makes building scalable network programs easy. 
+Some of its advantages include:
+
+It is generally fast
+It rarely blocks
+It offers a unified programming language and data type
+Everything is asynchronous 
+It yields great concurrency
+
+
+
+
+3. Why is Node.js Single-threaded?........................................................................................
+Node.js is single-threaded for async processing. By doing 
+async processing on a single-thread under typical web loads,
+more performance and scalability can be achieved instead of 
+the typical thread-based implementation.
+
+
+
+
+4. If Node.js is single-threaded, then how does it handle concurrency?......................................................
+The Multi-Threaded Request/Response Stateless Model is not 
+followed by the Node JS Platform, and it adheres to the 
+Single-Threaded Event Loop Model. The Node JS Processing 
+paradigm is heavily influenced by the JavaScript Event-based 
+model and the JavaScript callback system. As a result, Node.js 
+can easily manage more concurrent client requests. The event loop 
+is the processing model's beating heart in Node.js.
+
+
+
+
+
 
 
 
