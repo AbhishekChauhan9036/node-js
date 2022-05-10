@@ -1,20 +1,20 @@
 {
   "name": "expamle",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.17.3",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
     "npm-start": "^1.4.2",
     "npm-start-command": "^1.0.1"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index.js"
+    "start": "node index.js"
   },
   "author": "Abhishek",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
 }
-
-
