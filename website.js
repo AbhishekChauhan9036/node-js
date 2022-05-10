@@ -14,14 +14,14 @@ const server  = http.createServer((req, res)=>{
     }
     else if(req.url == '/cwh'){
         res.statusCode = 200;
-        res.end('<h1> This is CodeWithHarry</h1> <p> Hey this is the way to rock the world!</p>');
+        res.end('<h1> This is ChauhanAbhishek</h1> <p> Hey this is the way to rock the world!</p>');
     }
     else if(req.url == '/about'){
         res.statusCode = 200;
-        res.end('<h1> About CodeWithHarry</h1> <p> Hey this is about CodeWithHarry!</p>');
+        res.end('<h1> About ChauhanAbhishek</h1> <p> Hey this is about ChauhanAbhishek!</p>');
     } 
     else{
-        // res.harry();
+       
         res.statusCode = 404;
         res.end('<h1> Not Found</h1> <p> Hey this page was not found on this server</p>');
     }
