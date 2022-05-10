@@ -4,4 +4,9 @@ setTimeout(function(){
 	console.log("This is the second statement");
 }, 1000);
 
-console.log("This is the third statement");
+setTimeout(function(){
+	console.log("This is the third statement");
+}, 2000);
+
+
+console.log("This is the fourth statement");
